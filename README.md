@@ -13,7 +13,28 @@ Key details for the [[8, 3, 3]] code when j = 3 using Stabilizer Formalism:
 
 # Requirements
 
-- QuantumClifford.ECC: AbstractECC, parity_checks
+- QuantumClifford.ECC: AbstractECC parity_checks
+
+# How to Install?
+To successfull run Gottesman.jl, follow these steps:
+- **Download:** Download the QuantumClifford.jl source file.
+- **Place in src folder:** Move the downloaded source file into the src folder of your Julia environment.
+- **Include:** Include the file in your Julia code. For example, if you want to include it in a file named ECC.jl, add the following line at the end of ECC.jl:
+```
+ include("codes/gottesmencode.jl")
+```
+- **Package Development:** Develop the package using Pkg.develop(). Navigate to the root directory of your Julia environment and run:
+```
+using Pkg
+Pkg.develop(path="path_to_QuantumClifford.jl")
+```
+- **Usage:** Once the package is successfully installed, you can use it in your Julia code. Import the necessary functions or modules from QuantumClifford.jl using:
+```
+using QuantumClifford.ECC: Gottesman, Parity_checks
+parity_checks(Gottesman(4))
+```
+**Exploration**:  Play around with the code. Experiment with different values of js and see the symmetries in the Stabilizer Code
+
 
 # Results 
 
