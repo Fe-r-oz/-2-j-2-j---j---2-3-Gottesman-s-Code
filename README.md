@@ -13,7 +13,7 @@ Key details for the [[8, 3, 3]] code when j = 3 using Stabilizer Formalism:
 
 # Requirements
 
-- QuantumClifford.jl
+- QuantumClifford.ECC: AbstractECC, parity_checks
 
 # Results 
 
