@@ -1,2 +1,7 @@
-# -2-j-2-j---j---2-3-Gottesman-s-Code
-Homegrown Implementation of Gottesman Code!
+# [[2^j ,2^j - j - 2, 3]] Gottesman's Code
+
+Homegrown Implementation of Gottesman Code in Julia!
+
+# Requirements
+
+- QuantumClifford.jl
