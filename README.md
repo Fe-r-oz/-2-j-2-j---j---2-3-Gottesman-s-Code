@@ -8,7 +8,7 @@ Key details for the [[8, 3, 3]] code when j = 3 using Stabilizer Formalism:
 
 # Notes:
 - This implementation adopts the Gottesman Notation for the [[8, 3, 3]] stabilizer code as depicted in Table 3.3 on Page 22 on the Gottesman's PhD thesis. Additionally, for j = 4, our [[16, 10, 3]] stabilizer code stemming from Gottesman(4) can be cross-verified from **Table 8.1 on Page 91 **as well [1]
-- The differences between []1, [2], and [3] primarily lie in the choice of stabilizer generators and their permutations for the [[8, 3, 3]] stabilizer code.
+- The differences between [1], [2], and [3] primarily lie in the choice of stabilizer generators and their permutations for the [[8, 3, 3]] stabilizer code.
 """
 
 # Requirements
